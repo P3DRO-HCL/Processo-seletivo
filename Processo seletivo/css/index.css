@@ -1,0 +1,370 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eeecec; 
+    color: black; 
+    padding: 10px;
+  }
+  .main-container {
+    width: 80%;
+    background-color: #ec4b59;
+    margin: 0 auto;
+    color: black;
+    min-height: 100vh; 
+    border-radius: 10px;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    position: relative;
+    border-bottom-color: black;
+    border-radius: 20px;
+  }
+  .navbar-logo img {
+    height: 50px;
+  }
+  .site-name {
+    margin-left: 10px;
+    font-size: 42px;
+    font-family: fantasy;
+  }
+  .nav-icon {
+    cursor: pointer;
+    font-size: 30px;
+    margin-right: 20px;
+  }
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background-color: #333;
+  }
+  .nav-menu.active {
+    display: flex;
+  }
+  .nav-item {
+    padding: 10px;
+    text-decoration: none;
+  }
+  .nav-item:hover {
+    background-color: #555;
+  }
+  .content-section {
+    display:flex;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  .text-content h1 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+  .text-content p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  .text-content button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  .image-content img {
+    width: 70%;
+    height:max-content;
+    margin-left: 200px; 
+
+  }
+  button{
+    border-radius: 20px;
+    margin: 0;
+    border: 0;
+    background-color:chocolate;
+    width: 400px;
+    height: auto;
+
+  }
+  .text-content,
+.image-content {
+  flex-basis: 50%; 
+  flex-grow: 0; 
+  flex-shrink: 0; 
+  box-sizing: border-box; 
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10;
+}
+.text-content button {
+    display: block; 
+    margin: 0 auto; 
+    padding: 10px 20px; 
+    font-size: 1em; 
+    cursor: pointer; 
+  }
+  .split-section {
+    display: flex;
+    background: #fff;
+    border-radius: 10px;
+  }
+  
+  .left-content,
+  .right-content {
+    flex-basis: 50%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    box-sizing: border-box;
+  }
+  
+  .left-content img {
+    margin: 10px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .right-content {
+    padding: 20px; 
+  }
+  .drive {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  p{
+    font-size: 15px;
+    text-align: center;
+  }
+  h1{
+    text-align: center;
+  }
+  .dual-column-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+  }
+  
+  .column {
+    flex: 1; 
+    margin: 0 10px; 
+    text-align: center; 
+    background-color: #fff;
+  }
+  
+  .column:first-child {
+    margin-left: 15px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+  }
+  
+  .column:last-child {
+    margin-right: 15px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+  }
+  
+  
+  .column button {
+    margin-top: 10px; 
+    padding: 10px 20px; 
+    font-size: 1em; 
+    cursor: pointer; 
+  }
+.in-div{
+  color: black;
+  padding: 5px;
+}
+
+.three-column-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.column-2{
+  flex: 1;
+  margin: 0 10px; /* Ajuste a margem conforme necessário */
+  text-align: center;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Ajuste a margem conforme necessário */
+}
+
+.icon {
+  margin-right: 5px; /* Ajuste a margem conforme necessário */
+  width: 24px; /* Ajuste o tamanho conforme necessário */
+  height: auto;
+}
+.txt{
+  color: black;
+}
+.mario{
+  margin-left: 300px;
+}
+.reviews-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.review-column {
+  flex-basis: calc(33.333% - 50px); /* Ajusta para o padding e margem entre colunas */
+  padding: 25px;
+  box-sizing: border-box;
+  background-color: aliceblue;
+}
+
+.review-header {
+  display: flex;
+  align-items: center; /* Alinha verticalmente a imagem e o nome */
+}
+
+.profile-pic {
+  width: 50px; /* Ajuste conforme necessário */
+  height: 50px; /* Ajuste conforme necessário */
+  border-radius: 50%; /* Faz a imagem ficar redonda */
+  margin-right: 10px; /* Espaço entre a foto e o nome do usuário */
+}
+
+.username {
+  margin: 0; /* Remove a margem padrão do h4 */
+  /* Adicione mais estilos se necessário */
+}
+
+.review-subject {
+  font-weight: bold; /* Opcional: para destacar o assunto do comentário */
+  margin-top: 10px; /* Espaço entre o cabeçalho e o assunto */
+  color: black;
+}
+
+.review-text {
+  margin-top: 5px; /* Espaço entre o assunto e o texto do comentário */
+  color: black;
+}
+
+.rating {
+  margin-top: 10px; /* Espaço entre o texto do comentário e as estrelas */
+  /* Estilos das estrelas permanecem os mesmos */
+}
+h4{
+  color: black;
+}
+.reviews-section {
+  display: flex;
+  justify-content: space-between; /* Espaçamento uniforme entre as colunas */
+  margin: 20px; /* Espaçamento das bordas da tela */
+  gap: 20px; /* Espaço entre as colunas */
+}
+
+.review-column {
+  flex: 1; /* Cada coluna ocupa uma fração igual do espaço disponível */
+  display: flex;
+  flex-direction: row; /* Alterado para linha */
+  align-items: flex-start;
+  text-align: left;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.profile-pic {
+  margin-right: 10px; /* Espaçamento entre a imagem e o texto */
+}
+
+.team-section {
+  text-align: center;
+  margin: 40px 0;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.team-title {
+  margin-bottom: 20px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.member {
+  flex-basis: 20%; /* Ajuste conforme necessário */
+  text-align: center;
+}
+
+.member-photo {
+  width: 100px; /* Ajuste o tamanho conforme necessário */
+  height: 100px;
+  border-radius: 50%; /* Torna a imagem redonda */
+  object-fit: cover; /* Garante que a imagem cubra todo o espaço */
+  margin-bottom: 10px;
+}
+
+.member-name {
+  font-size: 1em;
+}
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.left-column, .right-column {
+  flex-basis: 50%;
+}
+
+.footer-item {
+  margin-bottom: 10px;
+  text-align: left; /* Alinha o texto à esquerda */
+}
+
+.footer-item h3, .footer-item p {
+  margin-left: 40px;
+  padding: 0;
+}
+
+.footer-image {
+  width: 30%; /* Ajuste o tamanho conforme necessário */
+  margin-left: auto; /* Alinha a imagem à direita */
+  margin-bottom: 10px;
+  margin-left: 300px;
+}
+
+.right-column p {
+  margin-bottom: 10px; /* Espaçamento entre o parágrafo e o botão */
+}
+
+.footer-button {
+  display: block; /* Faz o botão ocupar a linha inteira */
+  width: max-content; /* Ajusta a largura ao conteúdo do botão */
+  margin: 0 auto; /* Centraliza o botão */
+  width: 200px;
+  height: 40px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+.rede{
+  text-align: left;
+  padding-bottom: 10px;
+}
+.review-section-button{
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: 40px;
+}
