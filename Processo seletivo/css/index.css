@@ -186,19 +186,19 @@ body {
 
 .column-2{
   flex: 1;
-  margin: 0 10px; /* Ajuste a margem conforme necessário */
+  margin: 0 10px;
   text-align: center;
 }
 
 .feature {
   display: flex;
   align-items: center;
-  margin-bottom: 10px; /* Ajuste a margem conforme necessário */
+  margin-bottom: 10px;
 }
 
 .icon {
-  margin-right: 5px; /* Ajuste a margem conforme necessário */
-  width: 24px; /* Ajuste o tamanho conforme necessário */
+  margin-right: 5px; 
+  width: 24px; 
   height: auto;
 }
 .txt{
@@ -213,7 +213,7 @@ body {
 }
 
 .review-column {
-  flex-basis: calc(33.333% - 50px); /* Ajusta para o padding e margem entre colunas */
+  flex-basis: calc(33.333% - 50px); 
   padding: 25px;
   box-sizing: border-box;
   background-color: aliceblue;
@@ -221,50 +221,48 @@ body {
 
 .review-header {
   display: flex;
-  align-items: center; /* Alinha verticalmente a imagem e o nome */
+  align-items: center; 
 }
 
 .profile-pic {
-  width: 50px; /* Ajuste conforme necessário */
-  height: 50px; /* Ajuste conforme necessário */
-  border-radius: 50%; /* Faz a imagem ficar redonda */
-  margin-right: 10px; /* Espaço entre a foto e o nome do usuário */
+  width: 50px; 
+  height: 50px; 
+  border-radius: 50%; 
+  margin-right: 10px; 
 }
 
 .username {
-  margin: 0; /* Remove a margem padrão do h4 */
-  /* Adicione mais estilos se necessário */
+  margin: 0; 
 }
 
 .review-subject {
-  font-weight: bold; /* Opcional: para destacar o assunto do comentário */
-  margin-top: 10px; /* Espaço entre o cabeçalho e o assunto */
+  font-weight: bold; 
+  margin-top: 10px; 
   color: black;
 }
 
 .review-text {
-  margin-top: 5px; /* Espaço entre o assunto e o texto do comentário */
+  margin-top: 5px; 
   color: black;
 }
 
 .rating {
-  margin-top: 10px; /* Espaço entre o texto do comentário e as estrelas */
-  /* Estilos das estrelas permanecem os mesmos */
+  margin-top: 10px; 
 }
 h4{
   color: black;
 }
 .reviews-section {
   display: flex;
-  justify-content: space-between; /* Espaçamento uniforme entre as colunas */
-  margin: 20px; /* Espaçamento das bordas da tela */
-  gap: 20px; /* Espaço entre as colunas */
+  justify-content: space-between; 
+  margin: 20px; 
+  gap: 20px; 
 }
 
 .review-column {
-  flex: 1; /* Cada coluna ocupa uma fração igual do espaço disponível */
+  flex: 1; 
   display: flex;
-  flex-direction: row; /* Alterado para linha */
+  flex-direction: row; 
   align-items: flex-start;
   text-align: left;
   border-radius: 10px;
@@ -272,7 +270,7 @@ h4{
 }
 
 .profile-pic {
-  margin-right: 10px; /* Espaçamento entre a imagem e o texto */
+  margin-right: 10px; 
 }
 
 .team-section {
@@ -294,15 +292,15 @@ h4{
 }
 
 .member {
-  flex-basis: 20%; /* Ajuste conforme necessário */
+  flex-basis: 20%; 
   text-align: center;
 }
 
 .member-photo {
-  width: 100px; /* Ajuste o tamanho conforme necessário */
+  width: 100px; 
   height: 100px;
-  border-radius: 50%; /* Torna a imagem redonda */
-  object-fit: cover; /* Garante que a imagem cubra todo o espaço */
+  border-radius: 50%; 
+  object-fit: cover; 
   margin-bottom: 10px;
 }
 
@@ -327,7 +325,7 @@ h4{
 
 .footer-item {
   margin-bottom: 10px;
-  text-align: left; /* Alinha o texto à esquerda */
+  text-align: left; 
 }
 
 .footer-item h3, .footer-item p {
@@ -336,20 +334,20 @@ h4{
 }
 
 .footer-image {
-  width: 30%; /* Ajuste o tamanho conforme necessário */
-  margin-left: auto; /* Alinha a imagem à direita */
+  width: 30%; 
+  margin-left: auto; 
   margin-bottom: 10px;
   margin-left: 300px;
 }
 
 .right-column p {
-  margin-bottom: 10px; /* Espaçamento entre o parágrafo e o botão */
+  margin-bottom: 10px; 
 }
 
 .footer-button {
-  display: block; /* Faz o botão ocupar a linha inteira */
-  width: max-content; /* Ajusta a largura ao conteúdo do botão */
-  margin: 0 auto; /* Centraliza o botão */
+  display: block; 
+  width: max-content; 
+  margin: 0 auto; 
   width: 200px;
   height: 40px;
 }
